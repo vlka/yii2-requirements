@@ -1,0 +1,24 @@
+{
+    "name": "vlka/yii2-requirements",
+    "description": "Yii2-extension Requirements",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","Requirements"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vlka",
+            "email": "vladimir_kashkin@bk.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vlka\\yii2requirements\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "vlka\\yii2requirements\\Bootstrap"
+    }
+}
